@@ -1,8 +1,39 @@
 - layout: top-middle
-  name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
-  quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  name: Visualize PasVOC annotate on images
+  link: github.com/caodoanh2001
+  github: caodoanh2001/Visualize_PasVOC_on_images
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    In this project I wrote a script to visualize PasVOC annotate (*.xml) on images.
+    
+  name: Identification People
+  link: github.com/caodoanh2001
+  github: caodoanh2001/identification_people
+  description: | # this will include new lines to allow paragraphs
+    This is my coursework on "Basic Deep learning" Course by Tuan Nguyen Thanh. This code use face_recognition library to extract face feature. I train these features by SVM
+    to build a model for identifying input as a new face.
+    
+  name: Emotion recognition
+  link: github.com/caodoanh2001
+  github: caodoanh2001/emotion-recognition
+  description: | # this will include new lines to allow paragraphs
+    This is my small project use CNN on dataset FER2013 for emotion recognition
+    
+  name: UIT benchmark prediction
+  link: github.com/caodoanh2001
+  github: caodoanh2001/predict_UIT 
+  description: | # this will include new lines to allow paragraphs
+    This is my small project use Linear Regression to predict benchmark of my university.
+    
+  name: Image caption
+  link: github.com/caodoanh2001
+  github: caodoanh2001/image_caption
+  description: | # this will include new lines to allow paragraphs
+    
+  
+    
+  
+    
+  
+  
+    
+    

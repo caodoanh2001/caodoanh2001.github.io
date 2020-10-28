@@ -23,7 +23,7 @@ linkedin_username: buicaodoanh
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Doanh. My current major is Computer Science, i'm interested in Computer Vision. So that i have been studying about it for my future career.
+  My name is Doanh. My current major is <mark>Computer Science</mark>, i'm interested in <mark>Computer Vision</mark>. So that i have been studying about it for my future career.
 
 # Projects Section
 # projects_title: Projects

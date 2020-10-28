@@ -1,11 +1,11 @@
-- layout: top-middle
+- layout: left
   name: Visualize PasVOC annotate on images
   link: github.com/caodoanh2001
   github: caodoanh2001/Visualize_PasVOC_on_images
   description: | # this will include new lines to allow paragraphs
     In this project I wrote a script to visualize PasVOC annotate (*.xml) on images.
 
-- layout: top-middle
+- layout: left
   name: Identification People
   link: github.com/caodoanh2001
   github: caodoanh2001/identification_people
@@ -13,14 +13,14 @@
     This is my coursework on "Basic Deep learning" Course by Tuan Nguyen Thanh. This code use face_recognition library to extract face feature. I train these features by SVM
     to build a model for identifying input as a new face.
 
-- layout: top-middle
+- layout: left
   name: Emotion recognition
   link: github.com/caodoanh2001
   github: caodoanh2001/emotion-recognition
   description: | # this will include new lines to allow paragraphs
     This is my small project use CNN on dataset FER2013 for emotion recognition
 
-- layout: top-middle
+- layout: left
   name: UIT benchmark prediction
   link: github.com/caodoanh2001
   github: caodoanh2001/predict_UIT 

@@ -4,7 +4,7 @@
   github: caodoanh2001/Visualize_PasVOC_on_images
   description: | # this will include new lines to allow paragraphs
     In this project I wrote a script to visualize PasVOC annotate (*.xml) on images.
-
+- layout: top-middle
   name: Identification People
   link: github.com/caodoanh2001
   github: caodoanh2001/identification_people

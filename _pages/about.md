@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "Doanh C. Bui"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 I'm sophomore at University of Information Technology, Vietnam National University
 
 ## Experiece
@@ -37,5 +47,3 @@ Một phương pháp học sâu phát hiện cảm xúc gương mặt<br/>
 ## Courses
 
 [Here](https://github.com/caodoanh2001/Certificates)
-
-

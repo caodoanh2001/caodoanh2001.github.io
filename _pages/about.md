@@ -10,18 +10,18 @@ redirect_from:
 
 I'm sophomore at University of Information Technology, Vietnam National University
 
-## Experiece
+## <a name="exp"></a> Experience
 
 **Officience**<br/>
 December 2020, Data Scientist Intern
 
 
-## Education
+## <a name="edu"></a> Education
 
 ***University of Information Technology, VNU***<br/>
 2019 - expected 2023, Bachelor
 
-## Publications
+## <a name="publication"></a> Publications
 
 MC-OCR Challenge 2021: Deep Learning Approach for Vietnamese Receipts OCR<br/>
 **Doanh C. Bui**, Dung Truong, Nguyen D. Vo, Khang Nguyen<br/>
@@ -39,11 +39,11 @@ Một phương pháp học sâu phát hiện cảm xúc gương mặt<br/>
 *Một số vấn đề chọn lọc của Công nghệ thông tin và Truyền thông tại Quảng Ninh, Việt Nam*<br/>
 [[Request PDF](https://www.researchgate.net/publication/352805319_Mot_phuong_phap_hoc_sau_phat_hien_cam_xuc_guong_mat?_sg=ss5UEL_GprbWbqDmzw3FMpy2fexSeehjsPKZTXXrPDGOHh8zJvtXEkVPJwBF1vQ7b7GcpVog4d5tjYJDaaLt0JBYS92DJmRkUUJp84Cg.74-yhGRSHufs2je_sbzaZJfvIQn9csv-pxtExptgCc2oT8Px5s8ZELN_sYbgAxh5XEu628FpDMpFSwqlDZipog)]
 
-## Award
+## <a name="award"></a> Award
 
 * Top 15 Zalo AI Challenge (Traffic Sign Detection)
 * Semi-finalist of the Eureka Student Scientific Research Competition, organized by HoChiMinh Communist Youth Union of Ho Chi Minh city
 
-## Courses
+## <a name="courses"></a> Courses
 
 [Here](https://github.com/caodoanh2001/Certificates)

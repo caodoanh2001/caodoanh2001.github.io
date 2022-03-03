@@ -23,16 +23,30 @@ December 2020, Data Scientist Intern
 
 ## <a name="publication"></a> Publications
 
+EAES: Effective Augmented Embedding Spaces for Text-based Image Captioning<br/>
+Khang Nguyen, **Doanh C. Bui**, Truc Trinh, Nguyen D. Vo<br/>
+*IEEE Access, 2022<br/>
+[Accepted]
+
+An Augmented Embedding Spaces approach for Text-based Image Captioning<br/>
+**Doanh C. Bui**, Truc Trinh, Nguyen D. Vo, Khang Nguyen<br/>
+*2021 8th NAFOSTED Conference on Information and Computer Science (NICS)<br/>
+[[PDF](https://ieeexplore.ieee.org/abstract/document/9701576)]
+
+Survey on the efficiency of IoU and L1 loss on vehicle detection problem in aerial images using DETR<br/>
+My H. Nguyen, **Doanh C. Bui**, Nguyen D. Vo, Khang Nguyen<br/>
+*THE 14TH NATIONAL CONFERENCE ON FUNDAMENTAL AND APPLIED INFORMATION TECHNOLOGY RESEARCH<br/>
+[[PDF](http://vap.ac.vn/proceedingvap/proceeding/article/view/769)]
+
 MC-OCR Challenge 2021: Deep Learning Approach for Vietnamese Receipts OCR<br/>
 **Doanh C. Bui**, Dung Truong, Nguyen D. Vo, Khang Nguyen<br/>
-*THE 2021 RIVF INTERNATIONAL CONFERENCE ON COMPUTING AND COMMUNICATION TECHNOLOGIES (**RIVF**)*<br/>
-[[Request PDF](https://www.researchgate.net/publication/352794568_MC-OCR_Challenge_2021_Deep_Learning_Approach_for_Vietnamese_Receipts_OCR)]
+*THE 2021 RIVF INTERNATIONAL CONFERENCE ON COMPUTING AND COMMUNICATION TECHNOLOGIES (**RIVF'20**)*<br/>
+[[PDF](https://ieeexplore.ieee.org/abstract/document/9642128)]
 
 Phát hiện phương tiện giao thông tại các trung tâm thành phố lớn với phương pháp YOLOv4<br/>
 Hồ Thái Ngọc, Phạm Thị Hoàng Mai, **Bùi Cao Doanh**, Trịnh Thị Thanh Trúc, Võ Duy Nguyên, Nguyễn Tấn Trần Minh Khang<br/>
 *Một số vấn đề chọn lọc của Công nghệ thông tin và Truyền thông tại Quảng Ninh, Việt Nam*<br/>
-[[Request PDF](https://www.researchgate.net/publication/352805575_Phat_hien_phuong_tien_giao_thong_tai_cac_trung_tam_thanh_pho_lon_voi_phuong_phap_YOLOv4?_sg=RUJvlJirDiYD2aV2XBxHb6U8Uv9niCnFs_aM8ysU91cbnABv9oM0l_XOHfeK07OwkAs6osq2jt1TS_uxoiSrwujh4SB9W3KtHSkazYXG.XC9MgbScg7sRrsnHzgqrQXAKy4eYxUxkLKOzDLw7RrarPTXILHlOCncwD_QKFVaf4sgW0L7zCgkZ3uXETg1ahA)]
-
+[[PDF](https://www.researchgate.net/publication/352805575_Phat_hien_phuong_tien_giao_thong_tai_cac_trung_tam_thanh_pho_lon_voi_phuong_phap_YOLOv4?_sg=RUJvlJirDiYD2aV2XBxHb6U8Uv9niCnFs_aM8ysU91cbnABv9oM0l_XOHfeK07OwkAs6osq2jt1TS_uxoiSrwujh4SB9W3KtHSkazYXG.XC9MgbScg7sRrsnHzgqrQXAKy4eYxUxkLKOzDLw7RrarPTXILHlOCncwD_QKFVaf4sgW0L7zCgkZ3uXETg1ahA)]
 
 Một phương pháp học sâu phát hiện cảm xúc gương mặt<br/>
 **Bùi Cao Doanh**, Võ Duy Nguyên, Nguyễn Tấn Trần Minh Khang<br/>

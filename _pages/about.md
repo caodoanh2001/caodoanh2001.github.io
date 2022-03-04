@@ -25,17 +25,17 @@ December 2020, Data Scientist Intern
 
 EAES: Effective Augmented Embedding Spaces for Text-based Image Captioning<br/>
 Khang Nguyen, **Doanh C. Bui**, Truc Trinh, Nguyen D. Vo<br/>
-*IEEE Access, 2022<br/>
+*IEEE Access, 2022*<br/>
 [Accepted]
 
 An Augmented Embedding Spaces approach for Text-based Image Captioning<br/>
 **Doanh C. Bui**, Truc Trinh, Nguyen D. Vo, Khang Nguyen<br/>
-*2021 8th NAFOSTED Conference on Information and Computer Science (NICS)<br/>
+*2021 8th NAFOSTED Conference on Information and Computer Science (NICS)*<br/>
 [[PDF](https://ieeexplore.ieee.org/abstract/document/9701576)]
 
 Survey on the efficiency of IoU and L1 loss on vehicle detection problem in aerial images using DETR<br/>
 My H. Nguyen, **Doanh C. Bui**, Nguyen D. Vo, Khang Nguyen<br/>
-*THE 14TH NATIONAL CONFERENCE ON FUNDAMENTAL AND APPLIED INFORMATION TECHNOLOGY RESEARCH<br/>
+*THE 14TH NATIONAL CONFERENCE ON FUNDAMENTAL AND APPLIED INFORMATION TECHNOLOGY RESEARCH*<br/>
 [[PDF](http://vap.ac.vn/proceedingvap/proceeding/article/view/769)]
 
 MC-OCR Challenge 2021: Deep Learning Approach for Vietnamese Receipts OCR<br/>
@@ -51,7 +51,7 @@ Hồ Thái Ngọc, Phạm Thị Hoàng Mai, **Bùi Cao Doanh**, Trịnh Thị Th
 Một phương pháp học sâu phát hiện cảm xúc gương mặt<br/>
 **Bùi Cao Doanh**, Võ Duy Nguyên, Nguyễn Tấn Trần Minh Khang<br/>
 *Một số vấn đề chọn lọc của Công nghệ thông tin và Truyền thông tại Quảng Ninh, Việt Nam*<br/>
-[[Request PDF](https://www.researchgate.net/publication/352805319_Mot_phuong_phap_hoc_sau_phat_hien_cam_xuc_guong_mat?_sg=ss5UEL_GprbWbqDmzw3FMpy2fexSeehjsPKZTXXrPDGOHh8zJvtXEkVPJwBF1vQ7b7GcpVog4d5tjYJDaaLt0JBYS92DJmRkUUJp84Cg.74-yhGRSHufs2je_sbzaZJfvIQn9csv-pxtExptgCc2oT8Px5s8ZELN_sYbgAxh5XEu628FpDMpFSwqlDZipog)]
+[[PDF](https://www.researchgate.net/publication/352805319_Mot_phuong_phap_hoc_sau_phat_hien_cam_xuc_guong_mat?_sg=ss5UEL_GprbWbqDmzw3FMpy2fexSeehjsPKZTXXrPDGOHh8zJvtXEkVPJwBF1vQ7b7GcpVog4d5tjYJDaaLt0JBYS92DJmRkUUJp84Cg.74-yhGRSHufs2je_sbzaZJfvIQn9csv-pxtExptgCc2oT8Px5s8ZELN_sYbgAxh5XEu628FpDMpFSwqlDZipog)]
 
 ## <a name="award"></a> Award
 

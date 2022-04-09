@@ -18,9 +18,14 @@ December 2020, Data Scientist Intern
 ## <a name="edu"></a> Education
 
 <!-- ***University of Information Technology, VNU***<br/> -->
-2019 - expected 2022, BSc. in [Univerisy of Information Technology](https://www.uit.edu.vn/), [Vietnam National Univeristy Ho Chi Minh city](https://vnuhcm.edu.vn/)
+2019 - expected 2022, BSc. in [Univerisy of Information Technology](https://www.uit.edu.vn/), [VNU-HCM](https://vnuhcm.edu.vn/)
 
 ## <a name="publication"></a> Publications
+
+VieCap4H Challenge 2021: A transformer-based method for Healthcare Image Captioning in Vietnamese<br/>
+**Doanh C. Bui**, Truc Trinh, Thuan Trong Nguyen, Duc-Vu Nguyen, Nguyen D. Vo<br/>
+*8th International Workshop on Vietnamese Language and Speech Processing*<br/>
+[Accepted]
 
 EAES: Effective Augmented Embedding Spaces for Text-based Image Captioning<br/>
 Khang Nguyen, **Doanh C. Bui**, Truc Trinh, Nguyen D. Vo<br/>

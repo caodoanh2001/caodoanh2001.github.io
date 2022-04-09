@@ -8,25 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-I'm sophomore at University of Information Technology, Vietnam National University
+I'm 3rd-year student at University of Information Technology, Vietnam National University
 
 ## <a name="exp"></a> Experience
 
 **Officience**<br/>
 December 2020, Data Scientist Intern
 
-
 ## <a name="edu"></a> Education
 
-***University of Information Technology, VNU***<br/>
-2019 - expected 2023, Bachelor
+<!-- ***University of Information Technology, VNU***<br/> -->
+2019 - expected 2022, BSc. in [Univerisy of Information Technology](https://www.uit.edu.vn/), [Vietnam National Univeristy Ho Chi Minh city](https://vnuhcm.edu.vn/)
 
 ## <a name="publication"></a> Publications
 
 EAES: Effective Augmented Embedding Spaces for Text-based Image Captioning<br/>
 Khang Nguyen, **Doanh C. Bui**, Truc Trinh, Nguyen D. Vo<br/>
 *IEEE Access, 2022*<br/>
-[Accepted]
+[[PDF](https://ieeexplore.ieee.org/document/9732974)]
 
 An Augmented Embedding Spaces approach for Text-based Image Captioning<br/>
 **Doanh C. Bui**, Truc Trinh, Nguyen D. Vo, Khang Nguyen<br/>

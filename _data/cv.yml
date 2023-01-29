@@ -28,35 +28,12 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant
+      institution: Faculty of Software Engineering, University of Information Technology, VNU-HCM.
+      year: Nov 2022 - Feb 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - I am assigned to lecture students in practice credits of the Introduction to Programming course. In Semester 1 of the academic year 2023
+        - Scientific researching
 
 - title: Open Source Projects
   type: time_table
@@ -68,27 +45,54 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Certificate of Merit for Good Achievement in Scientific Research in 2022.
+    - year: 2021
       items: 
-        - Max Planck Medal
+        - Advanced youth follow Uncle Ho's words in the field of Learning - Creativity – Scientific Research.
+        - Certificate of Merit from the President of VNU for students whose articles have been published in prestigious international journals of the industry, indexed by ISI.
+        - Certificate of Participation in the final round of Student Scientific Research Prize.
+    - year: 2020
+      items:
+        - Certificate of Merit for Good Achievement in Scientific Research in 2020.
+        - Certificate of Participation of Student Scientific Research Prize.
 
-- title: Academic Interests
+- title: Scientifc Projects
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: OBJECT DETECTION ON AERIAL IMAGES BASED ON RANDOM CROPPING DATA AUGMENTATION METHOD
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Description. The research focus on exploring data augmentation techniques to boost the performance of object detection methods on aerial images.
+        - Location. Ho Chi Minh City, Vietnam.
+        - Type. Student Scientific Research Project.
+        - Client. Faculty of Computer Science, University of Information Technology, VNU-HCM
+        - Role. Principal Investigator.
+    - title: AN APPROACH TO THE PROBLEM OF RECOGNIZING VIETNAMESE RECEIPTS.
       items:
-        - Description 1.
-        - Description 2.
+        - Description. This project aims to propose an effective approach that extracts information from Vietnamese receipts. Four types of information are interested in this project including seller, address, total cost, and timestamp.
+        - Location. Ho Chi Minh City, Vietnam.
+        - Type. Scientific Research Project University-level.
+        - Client. University of Information Technology, VNU-HCM.
+        - Role. Participant.
+        - Position. Researcher.
+    - title: DETECTING OBJECTS IN IMAGE DOCUMENTS USING DEEP LEARNING NETWORKS.
+      items:
+        - Description. This project aims to explore the performance of advanced object detectors in page object detection problems. Besides, the project also proposes an object detection method to improve the performance of the UIT-DODV dataset.
+        - Location. Ho Chi Minh City, Vietnam.
+        - Type. Scientific Research Project VNU-HCM C-level.
+        - Client. Vietnam National University Ho Chi Minh city.
+        - Role. Participant.
+        - Position. Researcher.
+    - title: FACE EMOTION RECOGNITION USING DEEP LEARNING METHODS.
+      items:
+        - Description. This project aims to fine-tune and propose the CNN model for facial emotion recognition, which is modeled as an emotion classification problem.
+        - Location. Ho Chi Minh City, Vietnam.
+        - Type. Student Scientific Research Project.
+        - Client. Faculty of Computer Science, University of Information Technology, VNU-HCM.
+        - Role. Principal Investigator.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Research, Playing guitar with Bui Quang Duy, my closet friend. I also want to listen to Minh Triet, my superior friend.

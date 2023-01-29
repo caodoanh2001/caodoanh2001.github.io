@@ -11,22 +11,19 @@
 - title: Education
   type: time_table
   contents:
+    - title: Master of Science
+      institution: Department of Electrical Engineering, Korea University.
+      year: 2023-ongoing
+      description:
+        - Major. Computer Engineering.
     - title: Bachelor of Science
-      institution: University of Information Technology, VNU-HCM.
-      year: 2022
+      institution: Faculty of Computer Science, University of Information Technology, VNU-HCM.
+      year: 2019-2022
       description:
-        - Text-based Image Captioning using Deep Learning (10/10)
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Major. Computer Science.
+        - Thesis. Text-based Image Captioning using Deep Learning (10/10).
+        - Area of specialty.computer vision, image processing, deep learning, image captioning.
+        - Overall GPA. 8.97/10.
 
 - title: Experience
   type: time_table

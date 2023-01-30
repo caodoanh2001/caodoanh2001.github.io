@@ -64,34 +64,37 @@
   type: time_table
   contents:
     - title: Object detection on aerial images based on random cropping data augmentation method
-    - year: 2021-2022
-    - description:
+      year: 2021-2022
+      description:
         - <u>Description:</u> The research focus on exploring data augmentation techniques to boost the performance of object detection methods on aerial images.
         - <u>Location:</u> Ho Chi Minh City, Vietnam.
         - <u>Type:</u> Student Scientific Research Project.
         - <u>Client:</u> Faculty of Computer Science, University of Information Technology, VNU-HCM
         - <u>Role:</u> Principal Investigator.
+
     - title: An approach to the problem of recognizing vietnamese receipts
-    - year: 2021-2022
-    - description:
+      year: 2021-2022
+      description:
         - <u>Description:</u> This project aims to propose an effective approach that extracts information from Vietnamese receipts. Four types of information are interested in this project including seller, address, total cost, and timestamp.
         - <u>Location:</u> Ho Chi Minh City, Vietnam.
         - <u>Type:</u> Scientific Research Project University-level.
         - <u>Client:</u> University of Information Technology, VNU-HCM.
         - <u>Role:</u> Participant.
         - <u>Position</u> Researcher.
+
     - title: Detecting objects in image documents using deep learning networks
-    - year: 2021-Ongoing
-    - description:
+      year: 2021-Ongoing
+      description:
         - <u>Description:</u> This project aims to explore the performance of advanced object detectors in page object detection problems. Besides, the project also proposes an object detection method to improve the performance of the UIT-DODV dataset.
         - <u>Location:</u> Ho Chi Minh City, Vietnam.
         - <u>Type:</u> Scientific Research Project VNU-HCM C-level.
         - <u>Client:</u> Vietnam National University Ho Chi Minh city.
         - <u>Role:</u> Participant.
         - <u>Position</u> Researcher.
+
     - title: Face emotion recognition using deep learning methods
-    - year: 2020-2021
-    - description:
+      year: 2020-2021
+      description:
         - <u>Description:</u> This project aims to fine-tune and propose the CNN model for facial emotion recognition, which is modeled as an emotion classification problem.
         - <u>Location:</u> Ho Chi Minh City, Vietnam.
         - <u>Type:</u> Student Scientific Research Project.

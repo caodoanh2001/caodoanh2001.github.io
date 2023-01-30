@@ -65,38 +65,42 @@
   contents:
     - title: OBJECT DETECTION ON AERIAL IMAGES BASED ON RANDOM CROPPING DATA AUGMENTATION METHOD
     - year: 2021-2022
+    - description:
       items: 
-        - <u>Description</u> The research focus on exploring data augmentation techniques to boost the performance of object detection methods on aerial images.
-        - <u>Location</u> Ho Chi Minh City, Vietnam.
-        - <u>Type</u> Student Scientific Research Project.
-        - <u>Client</u> Faculty of Computer Science, University of Information Technology, VNU-HCM
-        - <u>Role</u> Principal Investigator.
+        - <u>Description:</u> The research focus on exploring data augmentation techniques to boost the performance of object detection methods on aerial images.
+        - <u>Location:</u> Ho Chi Minh City, Vietnam.
+        - <u>Type:</u> Student Scientific Research Project.
+        - <u>Client:</u> Faculty of Computer Science, University of Information Technology, VNU-HCM
+        - <u>Role:</u> Principal Investigator.
     - title: AN APPROACH TO THE PROBLEM OF RECOGNIZING VIETNAMESE RECEIPTS.
     - year: 2021-2022
+    - description:
       items:
-        - <u>Description</u> This project aims to propose an effective approach that extracts information from Vietnamese receipts. Four types of information are interested in this project including seller, address, total cost, and timestamp.
-        - <u>Location</u> Ho Chi Minh City, Vietnam.
-        - <u>Type</u> Scientific Research Project University-level.
-        - <u>Client</u> University of Information Technology, VNU-HCM.
-        - <u>Role</u> Participant.
+        - <u>Description:</u> This project aims to propose an effective approach that extracts information from Vietnamese receipts. Four types of information are interested in this project including seller, address, total cost, and timestamp.
+        - <u>Location:</u> Ho Chi Minh City, Vietnam.
+        - <u>Type:</u> Scientific Research Project University-level.
+        - <u>Client:</u> University of Information Technology, VNU-HCM.
+        - <u>Role:</u> Participant.
         - <u>Position</u> Researcher.
     - title: DETECTING OBJECTS IN IMAGE DOCUMENTS USING DEEP LEARNING NETWORKS.
     - year: 2021-Ongoing
+    - description:
       items:
-        - <u>Description</u> This project aims to explore the performance of advanced object detectors in page object detection problems. Besides, the project also proposes an object detection method to improve the performance of the UIT-DODV dataset.
-        - <u>Location</u> Ho Chi Minh City, Vietnam.
-        - <u>Type</u> Scientific Research Project VNU-HCM C-level.
-        - <u>Client</u> Vietnam National University Ho Chi Minh city.
-        - <u>Role</u> Participant.
+        - <u>Description:</u> This project aims to explore the performance of advanced object detectors in page object detection problems. Besides, the project also proposes an object detection method to improve the performance of the UIT-DODV dataset.
+        - <u>Location:</u> Ho Chi Minh City, Vietnam.
+        - <u>Type:</u> Scientific Research Project VNU-HCM C-level.
+        - <u>Client:</u> Vietnam National University Ho Chi Minh city.
+        - <u>Role:</u> Participant.
         - <u>Position</u> Researcher.
     - title: FACE EMOTION RECOGNITION USING DEEP LEARNING METHODS.
     - year: 2020-2021
+    - description:
       items:
-        - <u>Description</u> This project aims to fine-tune and propose the CNN model for facial emotion recognition, which is modeled as an emotion classification problem.
-        - <u>Location</u> Ho Chi Minh City, Vietnam.
-        - <u>Type</u> Student Scientific Research Project.
-        - <u>Client</u> Faculty of Computer Science, University of Information Technology, VNU-HCM.
-        - <u>Role</u> Principal Investigator.
+        - <u>Description:</u> This project aims to fine-tune and propose the CNN model for facial emotion recognition, which is modeled as an emotion classification problem.
+        - <u>Location:</u> Ho Chi Minh City, Vietnam.
+        - <u>Type:</u> Student Scientific Research Project.
+        - <u>Client:</u> Faculty of Computer Science, University of Information Technology, VNU-HCM.
+        - <u>Role:</u> Principal Investigator.
 
 - title: Skills and Supporting Tools
   type: list

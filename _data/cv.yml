@@ -101,26 +101,10 @@
 - title: Skills and Supporting Tools
   type: list
   contents:
-    - <u>Coding:</u>
-    items:
-      - C/C++ (proficient, 2+ years)
-      - Python (proficient, +3 years)
-      - Javascript
-
-    - <u>Computer Vision:</u>
-    items:
-      - OpenCV
-      - NVIDIA CUDA
-
-    - <u>Machine Learning:</u>
-    items:
-      - Sklearn, TensorFlow, PyTorch
-      - Pandas, Seaborn, Matplotlib
-      - Flask, FlaskAPI
-
-    - <u>Server:</u>
-    items:
-      - Linux, Bash, Docker
+    - <u>Coding:</u> C/C++ (proficient, 2+ years), Python (proficient, +3 years), Javascript.
+    - <u>Computer Vision:</u> OpenCV, NVIDIA CUDA.
+    - <u>Machine Learning:</u> Sklearn, TensorFlow, PyTorch, Pandas, Seaborn, Matplotlib, Flask, FlaskAPI.
+    - <u>Server:</u> Linux, Bash, Docker.
 
     
 - title: Other Interests

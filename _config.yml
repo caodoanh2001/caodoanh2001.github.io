@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Doanh
-middle_name: Cao
+middle_name: C.
 last_name: Bui
 email: doanhbc@uit.edu.vn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -41,7 +41,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout

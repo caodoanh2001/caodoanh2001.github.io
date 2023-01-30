@@ -63,7 +63,7 @@
 - title: Scientifc Projects
   type: time_table
   contents:
-    - title: OBJECT DETECTION ON AERIAL IMAGES BASED ON RANDOM CROPPING DATA AUGMENTATION METHOD
+    - title: Object detection on aerial images based on random cropping data augmentation method
     - year: 2021-2022
     - description:
         - <u>Description:</u> The research focus on exploring data augmentation techniques to boost the performance of object detection methods on aerial images.
@@ -71,7 +71,7 @@
         - <u>Type:</u> Student Scientific Research Project.
         - <u>Client:</u> Faculty of Computer Science, University of Information Technology, VNU-HCM
         - <u>Role:</u> Principal Investigator.
-    - title: AN APPROACH TO THE PROBLEM OF RECOGNIZING VIETNAMESE RECEIPTS.
+    - title: An approach to the problem of recognizing vietnamese receipts
     - year: 2021-2022
     - description:
         - <u>Description:</u> This project aims to propose an effective approach that extracts information from Vietnamese receipts. Four types of information are interested in this project including seller, address, total cost, and timestamp.
@@ -80,7 +80,7 @@
         - <u>Client:</u> University of Information Technology, VNU-HCM.
         - <u>Role:</u> Participant.
         - <u>Position</u> Researcher.
-    - title: DETECTING OBJECTS IN IMAGE DOCUMENTS USING DEEP LEARNING NETWORKS.
+    - title: Detecting objects in image documents using deep learning networks
     - year: 2021-Ongoing
     - description:
         - <u>Description:</u> This project aims to explore the performance of advanced object detectors in page object detection problems. Besides, the project also proposes an object detection method to improve the performance of the UIT-DODV dataset.
@@ -89,7 +89,7 @@
         - <u>Client:</u> Vietnam National University Ho Chi Minh city.
         - <u>Role:</u> Participant.
         - <u>Position</u> Researcher.
-    - title: FACE EMOTION RECOGNITION USING DEEP LEARNING METHODS.
+    - title: Face emotion recognition using deep learning methods
     - year: 2020-2021
     - description:
         - <u>Description:</u> This project aims to fine-tune and propose the CNN model for facial emotion recognition, which is modeled as an emotion classification problem.

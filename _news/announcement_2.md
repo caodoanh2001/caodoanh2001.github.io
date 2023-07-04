@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  [Under review] Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
+title:  (Under review) Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
 date:   2023-07-04 13:46:00
-description: [Under review] Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
+description: (Under review) Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
 tags: formatting links
 categories: sample-posts
 inline: false

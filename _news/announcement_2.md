@@ -8,4 +8,4 @@ categories: sample-posts
 inline: false
 ---
 
-Our collaborative project titled "Improving Human-Object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation" is currently under review for the second round. The paper involves the joint efforts of BSc. Thinh V. Le, Van Nguyen, and Ngoc Huyen.
+Our collaborative project titled "Improving Human-Object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation" is currently under review for the second round. The paper involves the joint efforts of BSc. Thinh V. Le and Van Nguyen Ngoc Huyen.

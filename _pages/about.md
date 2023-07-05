@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='https://uit.edu.vn'>University of Information Technology</a>. Ho Chi Minh city, Vietnam.
-subtitle: <a href='https://uit.edu.vn'>Korea University</a>. Seoul, Republic of Korea.
+subtitle: <a href='http://www.kwaklab.net/'>QuilL, School of Electrical and Engineering, Korea University</a>. Seoul, Republic of Korea.
 
 profile:
   align: right

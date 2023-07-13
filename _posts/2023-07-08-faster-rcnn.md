@@ -26,6 +26,7 @@ Hình 1. Minh họa phương pháp R-CNN [1].
 Phương pháp này có thể được mô tả đơn giản như sau: đầu tiên thuật toán **selective search** sẽ chọn ra khoảng $N$ vùng trên ảnh có khả năng cao chứa đối tượng. Thuật toán này chủ yếu dựa vào các đặc điểm bức ảnh như màu sắc. Trong bài báo gốc, các tác giả sử dụng $N = 2000$, tức sẽ có $2000$ vùng được đề xuất trên ảnh. Từ 2000 vùng này, ta sẽ tiến hành cắt ra từ ảnh gốc, và một mạng CNN sẽ được sử dụng để trích xuất đặc trưng của 2000 vùng ảnh này. Sau đó, từ lớp đặc trưng cuối cùng sẽ đi qua 1 lớp FC để tính toán một bộ offset $(\delta x, \delta y, \delta w, \delta h)$, trong đó $(\delta x, \delta y)$ là offset tọa độ tâm của đối tượng, $(\delta w, \delta h)$ là offset chiều rộng và chiều cao của đối tượng. Như vậy, mạng sẽ học cách bo sát đối tượng và phân lớp đối tượng từ N vùng truyền vào ban đầu. Đối tượng sẽ được phân lớp bằng thuật toán SVM (Support Vector Machine). 
 
 > Q: offset là gì?
+
 > A: offset gọi là phần bù. Tức là ban đầu selective search chọn ra 2000 vùng. 2000 vùng này đều có tọa độ (x, y, w, h). Tuy nhiên nó chưa bo sát đối tượng, ta cần một nhánh FC học cách bo sát, nhưng ta không học ra tọa độ chính xác, mà từ tọa độ ở selective search ta căn chỉnh lại, đó gọi là offset.
 
 Vậy ở đây chúng ta thấy điều gì? R-CNN phải thực hiện trích xuất đặc trưng cho $2000$ vùng ảnh, như thế rất tốn thời gian. Cuộc sống luôn phải vận động và phát triển, do đó Fast R-CNN ra đời để khắc phục điểm yếu chí mạng này của R-CNN.
@@ -75,9 +76,9 @@ Hình 4. Minh họa cách chọn mẫu của Faster R-CNN [3].
 $k$ anchor box có $k$ kích thước khác nhau, trong bài báo gốc, tác giả chọn $k=9$. Mỗi anchor box sẽ được gán 2 thứ:
 
 - Lớp nhị phân xác định nó có đối tượng hay không. Nếu anchor box đó được xác định là mẫu có chứa đối tượng, ta gán là $1$, ngược lại là $0$.
-- Tọa độ của anchor box, bao gồm 04 phần tử $(x, y, w, h)$.
+- Tọa độ của anchor box, bao gồm 04 phần tử \(x, y, w, h\).
 
-Thế thì làm sao chúng ta xác định được liệu 1 anchor box có chứa đối tượng hay không? Câu trả lời đơn giản là ta đi so với mẫu dữ liệu thật. Mỗi 1 anchor box sẽ được đi tính toán độ đo IoU với các hộp dự đoán thật (ground-truth), sau đó ta sẽ lấy giá trị IoU cao nhất của anchor box đó so với các ground-truth. Anchor box đó sẽ được chọn là mẫu $1$ khi $IoU > 0.7$, và chọn là mẫu $0$ khi $IoU \leq 0.3$. Vậy còn một đoạn từ $(0.3, 0.7]$ ta sẽ không chọn.
+Thế thì làm sao chúng ta xác định được liệu 1 anchor box có chứa đối tượng hay không? Câu trả lời đơn giản là ta đi so với mẫu dữ liệu thật. Mỗi 1 anchor box sẽ được đi tính toán độ đo IoU với các hộp dự đoán thật (ground-truth), sau đó ta sẽ lấy giá trị IoU cao nhất của anchor box đó so với các ground-truth. Anchor box đó sẽ được chọn là mẫu $1$ khi $IoU > 0.7$, và chọn là mẫu $0$ khi $IoU \leq 0.3$. Vậy còn một đoạn từ \(0.3, 0.7\] ta sẽ không chọn.
 
 Như vậy, bây giờ ta đã có một tập dữ liệu bao gồm các anchor box có đối tượng và anchor box không đối tượng cho mạng RPN học.
 
@@ -636,6 +637,9 @@ Một số hình ảnh khác:
 ## Tài liệu tham khảo
 
 [1]. Girshick, R., Donahue, J., Darrell, T., & Malik, J. (2014). Rich feature hierarchies for accurate object detection and semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 580-587).
+
 [2]. Girshick, R. (2015). Fast r-cnn. In Proceedings of the IEEE international conference on computer vision (pp. 1440-1448).
+
 [3]. Ren, S., He, K., Girshick, R., & Sun, J. (2015). Faster r-cnn: Towards real-time object detection with region proposal networks. Advances in neural information processing systems, 28.
+
 [4]. Chen, K., Wang, J., Pang, J., Cao, Y., Xiong, Y., Li, X., ... & Lin, D. (2019). MMDetection: Open mmlab detection toolbox and benchmark. arXiv preprint arXiv:1906.07155.

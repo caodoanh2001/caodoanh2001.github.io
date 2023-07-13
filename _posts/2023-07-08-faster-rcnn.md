@@ -33,7 +33,7 @@ Vậy ở đây chúng ta thấy điều gì? R-CNN phải thực hiện trích 
 
 ### Fast R-CNN
 
-Về cơ bản, Fast R-CNN vẫn giữ ý tưởng 02 giai đoạn của R-CNN. Selective Search vẫn được sử dụng để tìm 2000 vùng có khả năng chứa đối tượng, tuy nhiên điểm khác biệt ở đây là Fast R-CNN **trích xuất đặc trưng ảnh trước**, sau đó mới sử dụng selective search để tìm ra 2000 vùng đặc trưng. Do đó, ta chỉ cần đưa 2000 vùng đặc trưng này để tiếp tục xử lý mà không cần rút trích lại. Điều này là một bước ngoặt, vì nó đã tăng tốc độ xử lý lên rất nhiều ($\times 18.3$ cho huấn luyện và $\times 146$ cho suy luận) nhưng vẫn giữ được độ chính xác.
+Về cơ bản, Fast R-CNN vẫn giữ ý tưởng 02 giai đoạn của R-CNN. Selective Search vẫn được sử dụng để tìm 2000 vùng có khả năng chứa đối tượng, tuy nhiên điểm khác biệt ở đây là Fast R-CNN **trích xuất đặc trưng ảnh trước**, sau đó mới sử dụng selective search để tìm ra 2000 vùng đặc trưng. Do đó, ta chỉ cần đưa 2000 vùng đặc trưng này để tiếp tục xử lý mà không cần rút trích lại. Điều này là một bước ngoặt, vì nó đã tăng tốc độ xử lý lên rất nhiều ($$\times 18.3$$ cho huấn luyện và $$\times 146$$ cho suy luận) nhưng vẫn giữ được độ chính xác.
 
 ![](https://i.imgur.com/ZBggmRI.png)
 Hình 2. Minh họa mô hình Fast R-CNN [2].

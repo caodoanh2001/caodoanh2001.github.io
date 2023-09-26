@@ -16,7 +16,7 @@ Authorship contribution statement:
 - Khang Nguyen: Project administration, Supervision, Idea confirmation.
 - Thinh V. Le: Implementation (Idea implementation, feature extraction, training & evaluation on two benchmarks: V-COCO and HICO-DET), Writing – review & editing
 - Huyen Nguyen: Writing (specially focus on linguistic aspects) – review & editing
-- Doanh C. Bui: Conceptualization (EIP, SG, MCA), Implementation (only support Thinh V. Le), Writing – review & editing
+- **Doanh C. Bui**: Conceptualization (EIP, SG, MCA), Implementation (only support Thinh V. Le), Writing – review & editing
 
 ![](https://i.imgur.com/gR2BEbm.png)
 

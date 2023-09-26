@@ -21,3 +21,4 @@ Authorship contribution statement:
 ![](https://i.imgur.com/gR2BEbm.png)
 
 We will publish our source code and checkpoints for this study soon!
+**P/s**: I really appreciate the efforts of two undergraduate students: Thinh V. Le and Huyen Nguyen, who were working with me when we were both undergraduate students, to complete this study, specially Thinh. Thinh is a hard-working student. His self-study ability, knowledge, and coding are very good. Most of works of implementation in this study are done by him. I hope that in the future, I will have chance to continue to do research with Thinh. And I wish he will continue to develop himself, to become an excellent student in the future! Huyen Nguyen also showed her effort and performed co-working ability pretty well, I also believe that she will achieve further achievements in the future.

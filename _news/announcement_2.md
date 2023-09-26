@@ -8,7 +8,7 @@ categories: sample-posts
 inline: false
 ---
 
-Our study **"Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation"** has been accepted to be publish in "**Pattern Recognition Letters" (SCIE, Q1, IF = 5.1).**
+Our study **"Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation"** has been accepted to be publish in "**Pattern Recognition Letters" (SCI, Q1, IF = 5.1).**
 I want to give special thanks to Thinh V. Le and Huyen Nguyen for their efforts in this work. This study is also the result of undergraduate thesis of Thinh & Huyen. This study is also on collaboration with UIT-Together Research Group.
 In this work, we propose three key modules: Enhanced Interaction Pointers (EIP), Semantic-guided (SG) and Multi-level cross-attention (MCA) based on the HOTR model to improve itself for human-object interaction (HOI) problem.
 

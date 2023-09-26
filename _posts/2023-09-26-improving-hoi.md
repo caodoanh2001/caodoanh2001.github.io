@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  (Accepted) Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
-date:   2023-09-26 10:00:00
+date:   2023-09-26 00:00:00
 description: (Accepted) Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
 tags: formatting links
 categories: sample-posts

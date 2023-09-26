@@ -18,7 +18,7 @@ Authorship contribution statement:
 - Huyen Nguyen: Writing (specially focus on linguistic aspects) – review & editing
 - **Doanh C. Bui**: Conceptualization (EIP, SG, MCA), Implementation (only support Thinh V. Le), Writing – review & editing
 
-![](https://i.imgur.com/gR2BEbm.png)
+<img src="https://i.imgur.com/gR2BEbm.png" data-canonical-src="https://i.imgur.com/gR2BEbm.png" width="800" height="550" />
 
 We will publish our source code and checkpoints for this study soon!
 

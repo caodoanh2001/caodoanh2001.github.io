@@ -18,7 +18,7 @@ Authorship contribution statement:
 - Huyen Nguyen: Writing (specially focus on linguistic aspects) – review & editing
 - **Doanh C. Bui**: Conceptualization (EIP, SG, MCA), Implementation (only support Thinh V. Le), Writing – review & editing
 
-<img src="https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_09a9dac5e7f11117147d9b1130c94aed.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1695885060&Signature=PMfwsTG6Ykgoj0jelSwvwlteVdY%3D" data-canonical-src="https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_09a9dac5e7f11117147d9b1130c94aed.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1695885060&Signature=PMfwsTG6Ykgoj0jelSwvwlteVdY%3D" width="800" height="550" />
+<img src="https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_09a9dac5e7f11117147d9b1130c94aed.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1695885060&Signature=PMfwsTG6Ykgoj0jelSwvwlteVdY%3D" data-canonical-src="https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_09a9dac5e7f11117147d9b1130c94aed.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1695885060&Signature=PMfwsTG6Ykgoj0jelSwvwlteVdY%3D" width="750" height="480" />
 
 We will publish our source code and checkpoints for this study soon!
 

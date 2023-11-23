@@ -20,4 +20,4 @@ Meet our dedicated team:
 
 Furthermore, we are honored to share that our paper presenting this groundbreaking solution, titled "C2T-Net: Cross-Fused Transformer-Style Networks for Pedestrian Attribute Recognition," has been accepted, and we will be delivering an oral presentation at the WACV2024-RWS Workshop. This recognition underscores the innovation and impact of our work in advancing the field of pedestrian attribute recognition.
 
-Please check our published source code ![here](https://github.com/caodoanh2001/upar_challenge)
+Please check our published source code [here](https://github.com/caodoanh2001/upar_challenge).

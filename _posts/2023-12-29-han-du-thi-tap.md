@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Congratulations! 1st Place in Track 1 - UPAR challenge 2024 at WACV2024-RWS Workshop
-date:   2023-11-23 00:00:00
-description: Congratulations! 1st Place in Track 1 - UPAR challenge 2024 at WACV2024-RWS Workshop
+title:  Hàn du thi tập
+date:   2023-12-29 00:00:00
+description: Tập thơ sáng tác tại Hàn
 tags: formatting links
 categories: sample-posts
 inline: false

@@ -9,3 +9,5 @@ inline: false
 ---
 
 D.C. Bui, B. Song, K. Kim, J.T. Kwak, DAX-Net: a dual-branch dual-task adaptive cross-weight feature fusion network for robust multi-class cancer classification in pathology images, , 2023, . Paper ( Under review )
+
+Update: After a year, we have the review comments for this paper in first round review. Started working on the revised manuscript. Not sure what will happen, but hope the best.

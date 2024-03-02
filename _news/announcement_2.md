@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  (Accepted) Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
+title:  Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted in Pattern Recognition Letters (IF = 5.1)
 date:   2023-09-26 00:00:00
-description: (Accepted) Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation
+description: Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted in Pattern Recognition Letters (IF = 5.1)
+
 tags: formatting links
 categories: sample-posts
 inline: false

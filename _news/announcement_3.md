@@ -9,3 +9,5 @@ inline: false
 ---
 
 Our collaborative project titled "UIT-OpenViIC: An Open-domain Benchmark for Evaluating Image Captioning in Vietnamese" is currently under review for the first round. The paper involves the joint efforts of BSc. Nghia Hieu Nguyen.
+
+<img src="https://caodoanh2001.github.io/assets/img/uit-openviic.jpg" data-canonical-src="https://caodoanh2001.github.io/assets/img/uit-openviic.jpg" width="750" height="500" />

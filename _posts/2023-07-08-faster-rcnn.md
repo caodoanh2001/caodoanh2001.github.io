@@ -75,7 +75,7 @@ Hình 4. Minh họa cách chọn mẫu của Faster R-CNN [3].
 
 $$k$$ anchor box có $$k$$ kích thước khác nhau, trong bài báo gốc, tác giả chọn $$k=9$$. Mỗi anchor box sẽ được gán 2 thứ:
 
-- Lớp nhị phân xác định nó có đối tượng hay không. Nếu anchor box đó được xác định là mẫu có chứa đối tượng, ta gán là $1$, ngược lại là $$0$$.
+- Lớp nhị phân xác định nó có đối tượng hay không. Nếu anchor box đó được xác định là mẫu có chứa đối tượng, ta gán là $$1$$, ngược lại là $$0$$.
 - Tọa độ của anchor box, bao gồm 04 phần tử $$(x, y, w, h)$$.
 
 Thế thì làm sao chúng ta xác định được liệu 1 anchor box có chứa đối tượng hay không? Câu trả lời đơn giản là ta đi so với mẫu dữ liệu thật. Mỗi 1 anchor box sẽ được đi tính toán độ đo IoU với các hộp dự đoán thật (ground-truth), sau đó ta sẽ lấy giá trị IoU cao nhất của anchor box đó so với các ground-truth. Anchor box đó sẽ được chọn là mẫu $$1$$ khi $$IoU > 0.7$$, và chọn là mẫu $$0$$ khi $$IoU \leq 0.3$$. Vậy còn một đoạn từ $$(0.3, 0.7]$$ ta sẽ không chọn.

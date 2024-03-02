@@ -23,17 +23,17 @@ Vào thời điểm trước khi nhóm phương pháp R-CNN ra đời, các phư
 ![](https://i.imgur.com/wxFZHHH.png)
 Hình 1. Minh họa phương pháp R-CNN [1].
 
-Phương pháp này có thể được mô tả đơn giản như sau: đầu tiên thuật toán **selective search** sẽ chọn ra khoảng $N$ vùng trên ảnh có khả năng cao chứa đối tượng. Thuật toán này chủ yếu dựa vào các đặc điểm bức ảnh như màu sắc. Trong bài báo gốc, các tác giả sử dụng $$N = 2000$$, tức sẽ có $2000$ vùng được đề xuất trên ảnh. Từ 2000 vùng này, ta sẽ tiến hành cắt ra từ ảnh gốc, và một mạng CNN sẽ được sử dụng để trích xuất đặc trưng của 2000 vùng ảnh này. Sau đó, từ lớp đặc trưng cuối cùng sẽ đi qua 1 lớp FC để tính toán một bộ offset $(\delta x, \delta y, \delta w, \delta h)$, trong đó $(\delta x, \delta y)$ là offset tọa độ tâm của đối tượng, $(\delta w, \delta h)$ là offset chiều rộng và chiều cao của đối tượng. Như vậy, mạng sẽ học cách bo sát đối tượng và phân lớp đối tượng từ N vùng truyền vào ban đầu. Đối tượng sẽ được phân lớp bằng thuật toán SVM (Support Vector Machine). 
+Phương pháp này có thể được mô tả đơn giản như sau: đầu tiên thuật toán **selective search** sẽ chọn ra khoảng $N$ vùng trên ảnh có khả năng cao chứa đối tượng. Thuật toán này chủ yếu dựa vào các đặc điểm bức ảnh như màu sắc. Trong bài báo gốc, các tác giả sử dụng $$N = 2000$$, tức sẽ có $$2000$$ vùng được đề xuất trên ảnh. Từ 2000 vùng này, ta sẽ tiến hành cắt ra từ ảnh gốc, và một mạng CNN sẽ được sử dụng để trích xuất đặc trưng của 2000 vùng ảnh này. Sau đó, từ lớp đặc trưng cuối cùng sẽ đi qua 1 lớp FC để tính toán một bộ offset $$(\delta x, \delta y, \delta w, \delta h)$$, trong đó $$(\delta x, \delta y)$$ là offset tọa độ tâm của đối tượng, $$(\delta w, \delta h)$$ là offset chiều rộng và chiều cao của đối tượng. Như vậy, mạng sẽ học cách bo sát đối tượng và phân lớp đối tượng từ N vùng truyền vào ban đầu. Đối tượng sẽ được phân lớp bằng thuật toán SVM (Support Vector Machine). 
 
 > Q: offset là gì?
 
 > A: offset gọi là phần bù. Tức là ban đầu selective search chọn ra 2000 vùng. 2000 vùng này đều có tọa độ (x, y, w, h). Tuy nhiên nó chưa bo sát đối tượng, ta cần một nhánh FC học cách bo sát, nhưng ta không học ra tọa độ chính xác, mà từ tọa độ ở selective search ta căn chỉnh lại, đó gọi là offset.
 
-Vậy ở đây chúng ta thấy điều gì? R-CNN phải thực hiện trích xuất đặc trưng cho $2000$ vùng ảnh, như thế rất tốn thời gian. Cuộc sống luôn phải vận động và phát triển, do đó Fast R-CNN ra đời để khắc phục điểm yếu chí mạng này của R-CNN.
+Vậy ở đây chúng ta thấy điều gì? R-CNN phải thực hiện trích xuất đặc trưng cho $$2000$$ vùng ảnh, như thế rất tốn thời gian. Cuộc sống luôn phải vận động và phát triển, do đó Fast R-CNN ra đời để khắc phục điểm yếu chí mạng này của R-CNN.
 
 ### Fast R-CNN
 
-Về cơ bản, Fast R-CNN vẫn giữ ý tưởng 02 giai đoạn của R-CNN. Selective Search vẫn được sử dụng để tìm 2000 vùng có khả năng chứa đối tượng, tuy nhiên điểm khác biệt ở đây là Fast R-CNN **trích xuất đặc trưng ảnh trước**, sau đó mới sử dụng selective search để tìm ra 2000 vùng đặc trưng. Do đó, ta chỉ cần đưa 2000 vùng đặc trưng này để tiếp tục xử lý mà không cần rút trích lại. Điều này là một bước ngoặt, vì nó đã tăng tốc độ xử lý lên rất nhiều ($\times 18.3$) cho huấn luyện và $\times 146$ cho suy luận) nhưng vẫn giữ được độ chính xác.
+Về cơ bản, Fast R-CNN vẫn giữ ý tưởng 02 giai đoạn của R-CNN. Selective Search vẫn được sử dụng để tìm 2000 vùng có khả năng chứa đối tượng, tuy nhiên điểm khác biệt ở đây là Fast R-CNN **trích xuất đặc trưng ảnh trước**, sau đó mới sử dụng selective search để tìm ra 2000 vùng đặc trưng. Do đó, ta chỉ cần đưa 2000 vùng đặc trưng này để tiếp tục xử lý mà không cần rút trích lại. Điều này là một bước ngoặt, vì nó đã tăng tốc độ xử lý lên rất nhiều ($$\times 18.3$$) cho huấn luyện và $$\times 146$$ cho suy luận) nhưng vẫn giữ được độ chính xác.
 
 ![](https://i.imgur.com/ZBggmRI.png)
 Hình 2. Minh họa mô hình Fast R-CNN [2].
@@ -68,17 +68,17 @@ Như đã nói, mạng đề xuất khu vực sẽ được dùng để đề xu
 
 Hình 4. Minh họa cách chọn mẫu của Faster R-CNN [3].
 
-Để huấn luyện được mạng RPN, chúng ta cần tạo dữ liệu cho nó học, cơ chế này được gọi là chọn mẫu (sampling). Để giải thích về cơ chế này, dễ nhất các bạn đọc quan sát Hình 4. Từ đặc trưng của ảnh (conv feature map), sẽ có một cửa sổ trượt có kích thước $N \times N$ (sliding window) trượt qua một cách lần lượt. Tại mỗi lần trượt, nó sẽ tạo ra $k$ anchor box.
+Để huấn luyện được mạng RPN, chúng ta cần tạo dữ liệu cho nó học, cơ chế này được gọi là chọn mẫu (sampling). Để giải thích về cơ chế này, dễ nhất các bạn đọc quan sát Hình 4. Từ đặc trưng của ảnh (conv feature map), sẽ có một cửa sổ trượt có kích thước $$N \times N$$ (sliding window) trượt qua một cách lần lượt. Tại mỗi lần trượt, nó sẽ tạo ra $$k$$ anchor box.
 
 > Q: khoan khoan, dừng lại khoảng chừng là 2 giây. Anchor box là gì vậy?
 > A: anchor box là một khái niệm chỉ các "hộp neo" được định nghĩa trước, làm tiền đề cho các bước phía sau. Tại sao gọi là "hộp neo", vì nó sẽ tạm thời neo đậu, dựa vào các hộp neo đậu này mà bằng một cách nào đó chúng ta sẽ sử dụng nó để xác định đối tượng trên ảnh. Khái niệm này sẽ còn gặp lại ở các nhóm phương pháp 01 giai đoạn.
 
-$k$ anchor box có $k$ kích thước khác nhau, trong bài báo gốc, tác giả chọn $k=9$. Mỗi anchor box sẽ được gán 2 thứ:
+$$k$$ anchor box có $$k$$ kích thước khác nhau, trong bài báo gốc, tác giả chọn $$k=9$$. Mỗi anchor box sẽ được gán 2 thứ:
 
-- Lớp nhị phân xác định nó có đối tượng hay không. Nếu anchor box đó được xác định là mẫu có chứa đối tượng, ta gán là $1$, ngược lại là $0$.
-- Tọa độ của anchor box, bao gồm 04 phần tử \(x, y, w, h\).
+- Lớp nhị phân xác định nó có đối tượng hay không. Nếu anchor box đó được xác định là mẫu có chứa đối tượng, ta gán là $1$, ngược lại là $$0$$.
+- Tọa độ của anchor box, bao gồm 04 phần tử $$(x, y, w, h)$$.
 
-Thế thì làm sao chúng ta xác định được liệu 1 anchor box có chứa đối tượng hay không? Câu trả lời đơn giản là ta đi so với mẫu dữ liệu thật. Mỗi 1 anchor box sẽ được đi tính toán độ đo IoU với các hộp dự đoán thật (ground-truth), sau đó ta sẽ lấy giá trị IoU cao nhất của anchor box đó so với các ground-truth. Anchor box đó sẽ được chọn là mẫu $1$ khi $IoU > 0.7$, và chọn là mẫu $0$ khi $IoU \leq 0.3$. Vậy còn một đoạn từ \(0.3, 0.7\] ta sẽ không chọn.
+Thế thì làm sao chúng ta xác định được liệu 1 anchor box có chứa đối tượng hay không? Câu trả lời đơn giản là ta đi so với mẫu dữ liệu thật. Mỗi 1 anchor box sẽ được đi tính toán độ đo IoU với các hộp dự đoán thật (ground-truth), sau đó ta sẽ lấy giá trị IoU cao nhất của anchor box đó so với các ground-truth. Anchor box đó sẽ được chọn là mẫu $$1$$ khi $$IoU > 0.7$$, và chọn là mẫu $$0$$ khi $$IoU \leq 0.3$$. Vậy còn một đoạn từ $$(0.3, 0.7]$$ ta sẽ không chọn.
 
 Như vậy, bây giờ ta đã có một tập dữ liệu bao gồm các anchor box có đối tượng và anchor box không đối tượng cho mạng RPN học.
 
@@ -86,16 +86,16 @@ Như vậy, bây giờ ta đã có một tập dữ liệu bao gồm các anchor
 
 $$L(\{p_i\}, \{t_i\}) = \frac{1}{N_{cls}} \sum_i L_{cls} (p_i, \hat p_i) + \lambda \frac{1}{N_{reg}} \sum_i \hat p_i L_{reg}(t_i, \hat t_i)$$
 
-Trong đó, $L_{cls}$ là hàm binary cross-entropy, còn $L_{reg}$ là hàm mất mát hồi quy $SmoothL1$; $\hat p_i$ là phân phối xác suất dự đoán hộp đề xuất có đối tượng hay không, $p_i$ là nhãn thật sự; $\hat t_i$ là tọa độ dự đoán đã được tham số hóa; $t_i$ là tọa độ thật đã được tham số hóa, $t=\{t_x, t_y, t_w, t_h\}$ và $\hat t=\{\hat t_x, \hat t_y, \hat t_w, \hat t_h\}$ được định nghĩa như sau:
+Trong đó, $$L_{cls}$$ là hàm binary cross-entropy, còn $$L_{reg}$$ là hàm mất mát hồi quy $$SmoothL1$$; $$\hat p_i$$ là phân phối xác suất dự đoán hộp đề xuất có đối tượng hay không, $$p_i$$ là nhãn thật sự; $$\hat t_i$$ là tọa độ dự đoán đã được tham số hóa; $$t_i$$ là tọa độ thật đã được tham số hóa, $$t=\{t_x, t_y, t_w, t_h\}$$ và $$\hat t=\{\hat t_x, \hat t_y, \hat t_w, \hat t_h\}$$ được định nghĩa như sau:
 
 $$ t_x = (x - x_a) / w_a; \hat t_x = (\hat x - x_a) / w_a $$
 $$ t_y = (y - y_a) / h_a; \hat t_y = (\hat y - y_a) / h_a $$
 $$ t_w = \log (w / w_a); \hat t_w = \log (\hat w / w_a) $$
 $$ t_h = \log (h / h_a); \hat t_h = \log (\hat h / h_a) $$
 
-Trong đó, $x$, $\hat x$, $x_a$ lần lượt là hoành độ tâm thật sự của hộp bao, hoành độ tâm dự đoán của hộp bao và hoành độ tâm anchor box. $y$, $\hat y$, $y_a$ là tung độ tâm. Như thế ta có thể thấy, ở đây RPN không cố gắng để dự đoán các vị trí giống như hộp mỏ neo (vì nếu thế thì sử dụng hộp mỏ neo luôn cần gì học nữa), mà nó sẽ cố gắng dự đoán các vùng đề xuất lân cận các anchor box, mà tại đó có nhiều hộp bao ground-truth.
+Trong đó, $$x$$, $$\hat x$$, $$x_a$$ lần lượt là hoành độ tâm thật sự của hộp bao, hoành độ tâm dự đoán của hộp bao và hoành độ tâm anchor box. $$y$$, $$\hat y$$, $$y_a$$ là tung độ tâm. Như thế ta có thể thấy, ở đây RPN không cố gắng để dự đoán các vị trí giống như hộp mỏ neo (vì nếu thế thì sử dụng hộp mỏ neo luôn cần gì học nữa), mà nó sẽ cố gắng dự đoán các vùng đề xuất lân cận các anchor box, mà tại đó có nhiều hộp bao ground-truth.
 
-Thực tế, RPN sinh ra rất nhiều hộp đề xuất, trong khi chúng ta chỉ cần $N=2000$ hộp đề xuất. Có nhiều hộp đề xuất ban đầu bị chồng lấp lên nhau, lúc này tác giả sử dụng thuật toán non maximum suppression (NMS) với ngưỡng $IoU=0.7$ để loại đi các hộp đề xuất chồng lấp, chỉ giữ lại $2000$ hộp đề xuất để đưa vào Fast R-CNN huấn luyện. Tuy nhiên, khi huấn luyện thì $N=2000$, trong khi đó lúc đánh giá (test) thì $N$ là một con số khác (nhỏ hơn 2000).
+Thực tế, RPN sinh ra rất nhiều hộp đề xuất, trong khi chúng ta chỉ cần $$N=2000$$ hộp đề xuất. Có nhiều hộp đề xuất ban đầu bị chồng lấp lên nhau, lúc này tác giả sử dụng thuật toán non maximum suppression (NMS) với ngưỡng $$IoU=0.7$$ để loại đi các hộp đề xuất chồng lấp, chỉ giữ lại $$2000$$ hộp đề xuất để đưa vào Fast R-CNN huấn luyện. Tuy nhiên, khi huấn luyện thì $$N=2000$$, trong khi đó lúc đánh giá (test) thì $$N$$ là một con số khác (nhỏ hơn 2000).
 
 ### Cơ chế chia sẻ trọng số giữa RPN và Fast R-CNN (Sharing Convolutional Features)
 

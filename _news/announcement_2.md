@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted in Pattern Recognition Letters (IF = 5.1)
+title:  One paper has been accepted in Pattern Recognition Letters (IF = 5.1)
 date:   2023-09-26 00:00:00
 description: Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted in Pattern Recognition Letters (IF = 5.1)
 

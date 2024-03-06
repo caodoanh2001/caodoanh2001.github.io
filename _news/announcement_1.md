@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Congratulations! I am accepted as the final recipient of the Hyundai Global Fellowship program!
+title:  I am accepted as the final recipient of the Hyundai Global Fellowship program!
 date:   2022-01-27 16:40:00
 description: Hyundai Motor Chung Mong-koo Scholarship
 tags: formatting links

@@ -12,6 +12,6 @@ We are pleased to announce that our paper titled "DAX-Net: A Dual-Branch Dual-Ta
 
 <img src="https://caodoanh2001.github.io/assets/img/daxnet.jpg" data-canonical-src="https://caodoanh2001.github.io/assets/img/daxnet.jpg" width="750" height="500" />
 
-Additionally, this marks my first journal submission accepted during my master's study in Korea.
+This is the study I conducted during my pursuit of a master's degree under the supervision of Prof. Jin Tae Kwak.
 
 The code, manuscript, and datasets will be released soon!

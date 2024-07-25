@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  One paper has been accepted at MICCAI2024
+title:  One paper has been accepted by MICCAI2024
 date:   2024-06-17 00:00:00
-description: One paper has been accepted at MICCAI2024
+description: One paper has been accepted by MICCAI2024
 tags: formatting links
 categories: sample-posts
 inline: false

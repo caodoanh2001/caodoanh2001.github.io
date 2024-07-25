@@ -2,14 +2,14 @@
 layout: post
 title:  One paper has been accepted in Pattern Recognition Letters (IF = 5.1)
 date:   2023-09-26 00:00:00
-description: Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted in Pattern Recognition Letters (IF = 5.1)
+description: Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted by Pattern Recognition Letters (IF = 5.1)
 
 tags: formatting links
 categories: sample-posts
 inline: false
 ---
 
-Our study **"Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation"** has been accepted to be published in "**Pattern Recognition Letters" (SCI, Q1, IF = 5.1).**
+Our study **"Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation"** has been accepted to be published by "**Pattern Recognition Letters" (SCI, Q1, IF = 5.1).**
 I want to give special thanks to Thinh V. Le and Huyen Nguyen for their efforts in this work. This study is also the result of undergraduate thesis of Thinh & Huyen. This study is also on collaboration with UIT-Together Research Group.
 In this work, we propose three key modules: Enhanced Interaction Pointers (EIP), Semantic-guided (SG) and Multi-level cross-attention (MCA) based on the HOTR model to improve itself for human-object interaction (HOI) problem.
 

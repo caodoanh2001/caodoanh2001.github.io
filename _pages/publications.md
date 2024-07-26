@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: My Google Scholar profile: https://scholar.google.com/citations?user=WHviN4AAAAAJ&hl=vi&oi=ao
+description: https://scholar.google.com/citations?user=WHviN4AAAAAJ&hl=vi&oi=ao
 years: [2024, 2023, 2022, 2021]
 nav: true
 nav_order: 1

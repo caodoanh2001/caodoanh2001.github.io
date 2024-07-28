@@ -7,7 +7,7 @@ subtitle: <a href='http://www.kwaklab.net/'>QuIIL, School of Electrical and Engi
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: doanh.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Seoul, Republic of Korea</p>

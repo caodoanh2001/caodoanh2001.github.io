@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  One paper has been accepted by Machine Vision and Applications
+title:  One paper has been accepted by Machine Vision and Applications (SCIE Q2, IF = 2.4)
 date:   2024-08-06 00:00:00
-description: One paper has been accepted by Machine Vision and Applications (IF = 2.4)
+description: One paper has been accepted by Machine Vision and Applications (SCIE Q2, IF = 2.4)
 tags: formatting links
 categories: sample-posts
 inline: false

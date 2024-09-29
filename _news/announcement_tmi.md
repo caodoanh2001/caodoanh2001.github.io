@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  One paper has been accepted by IEEE Transactions on Medical Imaging (IF = 8.9)
+title:  One paper has been accepted by IEEE Transactions on Medical Imaging (SCIE Q1, IF = 8.9)
 date:   2024-07-25 00:00:00
-description: One paper has been accepted by IEEE Transactions on Medical Imaging (IF = 8.9)
+description: One paper has been accepted by IEEE Transactions on Medical Imaging (SCIE Q1, IF = 8.9)
 tags: formatting links
 categories: sample-posts
 inline: false

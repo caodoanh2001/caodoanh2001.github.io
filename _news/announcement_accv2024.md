@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  One paper has been accepted by ACCV2024
+title:  One paper has been accepted by ACCV2024 (B-ranked)
 date:   2024-09-20 00:00:00
 description: One paper has been accepted by ACCV2024
 tags: formatting links

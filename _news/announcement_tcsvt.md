@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  One paper has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (IF = 8.4)
+title:  One paper has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (SCIE Q1, IF = 8.4)
 date:   2024-03-06 00:00:00
-description: Congratulations! Our paper "Transformer-based Spatio-Temporal Unsupervised Traffic Anomaly Detection in Aerial Videos" has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (IF = 8.4)
+description: Congratulations! Our paper "Transformer-based Spatio-Temporal Unsupervised Traffic Anomaly Detection in Aerial Videos" has been accepted by IEEE Transactions on Circuits and Systems for Video Technology (SCIE Q1, IF = 8.4)
 tags: formatting links
 categories: sample-posts
 inline: false

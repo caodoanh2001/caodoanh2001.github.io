@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  One paper has been accepted by Pattern Recognition Letters (IF = 5.1)
+title:  One paper has been accepted by Pattern Recognition Letters (SCIE Q1, IF = 5.1)
 date:   2023-09-26 00:00:00
-description: Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted by Pattern Recognition Letters (IF = 5.1)
+description: Congratulations! Improving Human-object Interaction with Auxiliary Semantic Information and Enhanced Instance Representation has been accepted by Pattern Recognition Letters (SCIE Q1, IF = 5.1)
 
 tags: formatting links
 categories: sample-posts

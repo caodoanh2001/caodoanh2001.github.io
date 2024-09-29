@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  One paper has been accepted by Computer Methods and Programs in Biomedicine (IF = 6.1)
+title:  One paper has been accepted by Computer Methods and Programs in Biomedicine (SCIE Q1, IF = 6.1)
 date:   2024-03-02 00:00:00
 description: Congratulations! Our paper "DAX-Net - a dual-branch dual-task adaptive cross-weight feature fusion network for robust multi-class cancer classification in pathology images" has been accepted in Computer Methods and Programs in Biomedicine (IF = 6.1)
 tags: formatting links

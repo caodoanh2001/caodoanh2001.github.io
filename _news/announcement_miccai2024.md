@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  One paper has been accepted by MICCAI2024 (A-ranked)
+title:  One paper has been accepted for presentation at MICCAI2024 (A-ranked)
 date:   2024-06-17 00:00:00
-description: One paper has been accepted by MICCAI-2024 (A-ranked)
+description: One paper has been accepted for presentation at MICCAI-2024 (A-ranked)
 tags: formatting links
 categories: sample-posts
 inline: false

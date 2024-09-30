@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  One paper has been accepted by WACVW (1st Place in Track 1 - UPAR challenge 2024)
+title:  One paper has been accepted for presentation at WACVW (1st Place in Track 1 - UPAR challenge 2024)
 date:   2023-11-23 00:00:00
 description: Congratulations! 1st Place in Track 1 - UPAR challenge 2024 at WACV2024-RWS Workshop
 tags: formatting links

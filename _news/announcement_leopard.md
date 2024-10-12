@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Placed 6th at MICCAI2024-LEOPARD challenge
-date:   2023-10-07 00:00:00
+date:   2024-10-07 00:00:00
 description: Placed 6th at MICCAI2024-LEOPARD challenge
 tags: formatting links
 categories: sample-posts

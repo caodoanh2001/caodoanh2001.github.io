@@ -25,6 +25,8 @@
   year={2024},
   selected={true},
   preview={MECFormer.png},
+  pdf={https://arxiv.org/abs/2410.04507},
+  bibtex_show={true}
 }
 
 @article{BuiTMDNet2024,
@@ -59,24 +61,54 @@
   pdf={https://ieeexplore.ieee.org/document/10616189}
 }
 
-@article{vuong2024quiil,
-  bibtex_show={true},
-  title={QuIIL at T3 challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View},
-  author={Vuong, Trinh TL and Bui, Doanh C and Kwak, Jin Tae},
-  journal={arXiv preprint arXiv:2407.13216},
+@InProceedings{10.1007/978-3-031-71626-3_10,
+  author="T. L. Vuong, Trinh
+  and C. Bui, Doanh
+  and Kwak, Jin Tae",
+  editor="Bao, Rina
+  and Grant, Ellen
+  and Kirkpatrick, Andrew
+  and Wachs, Juan
+  and Ou, Yangming",
+  title="QuIIL at T3 Challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View",
+  booktitle="AI for Brain Lesion Detection and Trauma Video Action Recognition",
+  year="2025",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="82--93",
+  abstract="In this paper, we present our solutions for a spectrum of automation tasks in life-saving intervention procedures within the Trauma THOMPSON (T3) Challenge, encompassing action recognition, action anticipation, and Visual Question Answering (VQA). For action recognition and anticipation, we propose a pre-processing strategy that samples and stitches multiple inputs into a single image and then incorporates momentum- and attention-based knowledge distillation to improve the performance of the two tasks. For training, we present an action dictionary-guided design, which consistently yields the most favorable results across our experiments. In the realm of VQA, we leverage object-level features and deploy co-attention networks to train both object and question features. Notably, we introduce a novel frame-question cross-attention mechanism at the network's core for enhanced performance. Our solutions achieve the {\$}{\$}2^{\{}nd{\}}{\$}{\$}rank in action recognition and anticipation tasks and {\$}{\$}1^{\{}st{\}}{\$}{\$}rank in the VQA task. The source code is available at https://github.com/QuIIL/QuIIL{\_}thompson{\_}solution.",
+  isbn="978-3-031-71626-3",
   preview={thompson.jpg},
   year={2024},
-  pdf={https://arxiv.org/abs/2407.13216}
+  pdf={https://arxiv.org/abs/2407.13216},
+  bibtex_show={true},
+  preview={thompson.jpg},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-71626-3_10},
+  selected={true},
 }
 
-@article{bui2024falformer,
+@InProceedings{10.1007/978-3-031-72083-3_12,
+  author="Bui, Doanh C.
+  and Vuong, Trinh Thi Le
+  and Kwak, Jin Tae",
+  editor="Linguraru, Marius George
+  and Dou, Qi
+  and Feragen, Aasa
+  and Giannarou, Stamatia
+  and Glocker, Ben
+  and Lekadir, Karim
+  and Schnabel, Julia A.",
+  title="FALFormer: Feature-Aware Landmarks Self-attention for Whole-Slide Image Classification",
+  booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
+  year="2024",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="123--132",
+  abstract="Slide-level classification for whole-slide images (WSIs) has been widely recognized as a crucial problem in digital and computational pathology. Current approaches commonly consider WSIs as a bag of cropped patches and process them via multiple instance learning due to the large number of patches, which cannot fully explore the relationship among patches; in other words, the global information cannot be fully incorporated into decision making. Herein, we propose an efficient and effective slide-level classification model, named as FALFormer, that can process a WSI as a whole so as to fully exploit the relationship among the entire patches and to improve the classification performance. FALFormer is built based upon Transformers and self-attention mechanism. To lessen the computational burden of the original self-attention mechanism and to process the entire patches together in a WSI, FALFormer employs Nystr{\"o}m self-attention which approximates the computation by using a smaller number of tokens or landmarks. For effective learning, FALFormer introduces feature-aware landmarks to enhance the representation power of the landmarks and the quality of the approximation. We systematically evaluate the performance of FALFormer using two public datasets, including CAMELYON16 and TCGA-BRCA. The experimental results demonstrate that FALFormer achieves superior performance on both datasets, outperforming the state-of-the-art methods for the slide-level classification. This suggests that FALFormer can facilitate an accurate and precise analysis of WSIs, potentially leading to improved diagnosis and prognosis on WSIs.",
+  isbn="978-3-031-72083-3",
   bibtex_show={true},
-  title={FALFormer: Feature-aware Landmarks self-attention for Whole-slide Image Classification},
-  author={Doanh C. Bui and Vuong, Trinh Thi Le and Kwak, Jin Tae},
-  journal={arXiv preprint arXiv:2407.07340},
-  preview={miccai2024.png},
-  year={2024},
-  pdf={https://arxiv.org/abs/2407.07340}
+  pdf={https://link.springer.com/chapter/10.1007/978-3-031-72083-3_12},
+  selected={true},
 }
 
 @inproceedings{bui2024efficient,

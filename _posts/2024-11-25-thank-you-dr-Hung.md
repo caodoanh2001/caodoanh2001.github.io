@@ -16,4 +16,4 @@ Additionally, Dr. Hung and I collaborated on several manuscripts. For me, this e
 
 Without a doubt, if I had not met Dr. Hung in Korea, my life would have been much more difficult. Once again, thank you so much, Dr. Hung, my big brother.
 
-<img src="https://caodoanh2001.github.io/assets/img/hungdoanh.jpg" data-canonical-src="https://caodoanh2001.github.io/assets/img/hungdoanh.jpg" width="500" height="900" />
+<img src="https://caodoanh2001.github.io/assets/img/hungdoanh.jpg" data-canonical-src="https://caodoanh2001.github.io/assets/img/hungdoanh.jpg" width="600" height="900" />

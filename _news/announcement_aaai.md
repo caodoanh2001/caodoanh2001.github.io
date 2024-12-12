@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  One paper has been accepted for presentation at AAAI2025
+title:  One paper has been accepted for presentation at AAAI2025 (A*-ranked)
 date:   2024-12-10 00:00:00
-description: One paper has been accepted for presentation at AAAI2025
+description: One paper has been accepted for presentation at AAAI2025 (A*-ranked)
 tags: formatting links
 categories: sample-posts
 inline: false
@@ -10,7 +10,9 @@ inline: false
 
 Our joint work HiGDA has been accepted for presentation at AAAI2025.
 
-Hung Ba Ngo*, Doanh C. Bui*, Nhat-Tuong Do-Tran, Choi Tae Jong
+Hung Ba Ngo *, Doanh C. Bui *, Nhat-Tuong Do-Tran, Choi Tae Jong
+
+(*) Dr. Hung Ngo and Doanh Bui equally contributes to this work.
 
 In this study, we formulate the domain adaptation problem as a hierarchical graph of nodes. From this perspective, an individual image is considered a local graph of nodes, and a set of image embeddings is considered a global graph, where edges exist if two nodes belong to the same category.
 

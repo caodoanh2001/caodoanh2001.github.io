@@ -12,10 +12,11 @@
   type: time_table
   contents:
     - title: Master of Science
-      institution: Department of Electrical Engineering, Korea University.
-      year: 2023-Ongoing
+      institution: School of Electrical Engineering, Korea University.
+      year: 2023-2025
       description:
         - <u>Major:</u> Computer Engineering.
+        - <u>Thesis:</u> From local-to-global histopathology analysis ":" Computational methods for Multi-class cancer classification.
     - title: Bachelor of Science
       institution: Faculty of Computer Science, University of Information Technology, VNU-HCM.
       year: 2019-2022
@@ -40,7 +41,6 @@
   contents:
     - title: IETLS 6.5 (English)
       year: 2022
-      description: Reading (6.5), Listening (6.5), Writing (6.5), Speaking (5.5)
     - title: TOEIC 720 (English)
       year: 2020
 
@@ -55,15 +55,18 @@
       year: 2022 - Present
       description:
       - Reviewed manuscripts on topics related to object detection, person Re-ID, medical image analysis and 3D reconstruction.
+    - title: Neural Networks (5-year JIF = 7.4)
+      year: 2022 - Present
+      description:
+      - Reviewed manuscripts on topics related to pedestrian attribute recognition.
 
 - title: Skills and Supporting Tools
   type: list
   contents:
-    - <u>Coding:</u> C/C++ (proficient, 2+ years), Python (proficient, +3 years), Javascript.
+    - <u>Coding:</u> C/C++ (proficient, 2+ years), Python (proficient, 4+ years), Javascript.
     - <u>Computer Vision:</u> OpenCV, NVIDIA CUDA.
     - <u>Machine Learning:</u> Sklearn, TensorFlow, PyTorch, Pandas, Seaborn, Matplotlib, Flask, FlaskAPI.
     - <u>Server:</u> Linux, Bash, Docker.
-
     
 - title: Other Interests
   type: list

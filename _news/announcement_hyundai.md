@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  I am accepted as the final recipient of the Hyundai Global Fellowship program!
-date:   2022-01-27 16:40:00
+date:   2023-01-27 00:00:00
 description: Hyundai Motor Chung Mong-koo Scholarship
 tags: formatting links
 categories: sample-posts

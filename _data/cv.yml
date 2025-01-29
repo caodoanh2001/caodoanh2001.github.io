@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science
+    - title: Master of Science in Computer Engineering
       institution: School of Electrical Engineering, Korea University.
       year: 2023-2025
       description:
@@ -19,8 +19,8 @@
         - <u>Thesis:</u> Computational methods for Multi-class cancer classification.
         - <u>Area of specialty:</u> histopathology image analysis.
         - <u>GPA:</u> 4.19/4.5 
-    - title: Bachelor of Science
-      institution: Faculty of Computer Science, University of Information Technology, VNU-HCM.
+    - title: Bachelor of Science in Computer Science
+      institution: University of Information Technology, VNU-HCM.
       year: 2019-2022
       description:
         - <u>Major:</u> Computer Science.
@@ -38,14 +38,6 @@
         - I am assigned to lecture students in practice credits of the Introduction to Programming course. In Semester 1 of the academic year 2023
         - Scientific researching
 
-- title: Language proficiency
-  type: time_table
-  contents:
-    - title: IETLS 6.5 (English)
-      year: 2022
-    - title: TOEIC 720 (English)
-      year: 2020
-
 - title: Academic service
   type: time_table
   contents:
@@ -58,9 +50,13 @@
       description:
       - Reviewed manuscripts on topics related to object detection, person Re-ID, medical image analysis and 3D reconstruction.
     - title: Neural Networks (5-year JIF = 7.4)
-      year: 2022 - Present
+      year: 2024 - Present
       description:
       - Reviewed manuscripts on topics related to pedestrian attribute recognition.
+    - title: Scientific Report (5-year JIF = 4.3)
+      year: 2024 - Present
+      description:
+      - Reviewed manuscripts on topics related to lung carcinoma cancer subtyping.
 
 - title: Skills and Supporting Tools
   type: list

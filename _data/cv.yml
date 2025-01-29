@@ -38,6 +38,11 @@
         - I am assigned to lecture students in practice credits of the Introduction to Programming course. In Semester 1 of the academic year 2023
         - Scientific researching
 
+- title: Publications
+  type: list
+  contents:
+    - I am the first author, co-first author, or co-author of several publications on problems utilizing Computer Vision techniques. Some of my notable works have been published in MICCAI, WACV, and AAAI conferences, as well as high-profile journals, including IEEE Transactions on Medical Imaging (TMI) and IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). For more details, please refer to my CV. 
+    
 - title: Awards
   type: time_table
   contents:

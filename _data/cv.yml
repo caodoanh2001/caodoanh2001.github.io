@@ -38,6 +38,30 @@
         - I am assigned to lecture students in practice credits of the Introduction to Programming course. In Semester 1 of the academic year 2023
         - Scientific researching
 
+- title: Awards
+  type: time_table
+  contents:
+    - title: NAIST Granite
+      year: 2025 - 2028
+      description:
+      - Awarded by NAIST, which is a full coverage for PhD study.
+    - title: 1st Place in Track 1 – Pedestrian Attribute Recognition, UPAR challenge 2024
+      year: 2024
+      description:
+      - Awarded by the UPAR organizer (University of Barcelona).
+    - title: 1st Place in Track 2 - Visual Question Answering, MICCAI Thompson challenge 2023
+      year: 2024
+      description:
+      - Awarded by the Thompson Challenge organizer (Purdue University).
+    - title: Hyundai Global Fellowship
+      year: 2023 - 2025
+      description:
+      - Awarded by Hyundai Chung Mong-Koo foundation, which is a full coverage for master study.
+    - title: Pony Chung scholarship for undergraduate student
+      year: 2022
+      description:
+      - Awarded by Pony Chung foundation (Hyundai corporation).
+      
 - title: Academic service
   type: time_table
   contents:

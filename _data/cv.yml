@@ -42,7 +42,12 @@
   type: list
   contents:
     - I am the first author, co-first author, or co-author of several publications on problems utilizing Computer Vision techniques. Some of my notable works have been published in MICCAI, WACV, AAAI, ACCV conferences, as well as high-profile journals, including IEEE Transactions on Medical Imaging (TMI) and IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). For more details, please refer to my CV. 
-    
+
+- title: Academic service
+  type: list
+  contents:
+    - I am a reviewer for IEEE Transactions on Medical Imaging (5-year JIF = 11.3), IEEE Access (5-year JIF = 3.7), Neural Networks (5-year JIF = 7.4), Scientific Reports (5-year JIF = 4.3), The Visual Computer (5-year JIF = 3.0), and the International Journal of Machine Learning and Cybernetics (5-year JIF = 3.5)
+
 - title: Awards
   type: time_table
   contents:
@@ -66,26 +71,6 @@
       year: 2022
       description:
       - Awarded by Pony Chung foundation (Hyundai corporation).
-      
-- title: Academic service
-  type: time_table
-  contents:
-    - title: IEEE Transactions on Medical Imaging (5-year JIF = 11.3)
-      year: 2024 - Present
-      description:
-      - Reviewed manuscripts on graph neural networks for medical image analysis.
-    - title: IEEE Access (5-year JIF = 3.7)
-      year: 2022 - Present
-      description:
-      - Reviewed manuscripts on topics related to object detection, person Re-ID, medical image analysis and 3D reconstruction.
-    - title: Neural Networks (5-year JIF = 7.4)
-      year: 2024 - Present
-      description:
-      - Reviewed manuscripts on topics related to pedestrian attribute recognition.
-    - title: Scientific Report (5-year JIF = 4.3)
-      year: 2024 - Present
-      description:
-      - Reviewed manuscripts on topics related to lung carcinoma cancer subtyping.
 
 - title: Skills and Supporting Tools
   type: list
